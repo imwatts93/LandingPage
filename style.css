@@ -2,6 +2,9 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
 }
 
 ul {
@@ -10,3 +13,27 @@ ul {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #1F2937;
+    align-items: center;
+}
+
+.logo {
+    color: whitesmoke;
+    font-size: 3rem;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.leftLinks > * {
+    display: flex;
+    gap: 0.5rem;
+}
