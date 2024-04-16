@@ -80,7 +80,7 @@ button {
     border-radius: 16px;
 }
 
-main h2 {
+.clientTestHead {
     text-align: center;
     font-size: 2rem;
     font-weight: 600;
@@ -90,6 +90,8 @@ main h2 {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 5vh 10vw;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .clientCard figcaption {
@@ -118,6 +120,43 @@ main h2 {
     flex-direction: column;
 }
 
-.quoteBox span {
-    justify-content: flex-end;
+.quoteName {
+    display: block;
+    text-align: right;
+    font-weight: 600;
+}
+
+.callToActionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 50vw;
+    padding: 1rem;
+    border-radius: 16px;
+}
+
+.callToActionContainer h2 {
+    margin-bottom: 0;
+    padding: 0;
+}
+ 
+.CTAcard {
+    width: 30%;
+}
+
+.CTAbutton {
+    border: 2px solid #F9FAF8;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 10px;
 }
