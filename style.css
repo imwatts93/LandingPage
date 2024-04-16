@@ -48,7 +48,7 @@ header {
 }
 
 .headerCard {
-    color: whitesmoke;
+    color: #F9FAF8;
     margin-top: 0;
     padding: 1rem;
     width: 300px;
@@ -58,12 +58,24 @@ header {
 .headerCard h2 {
     margin: 0;
     font-weight: 600;
+    font-size: 1.5rem;
 }
 
 .headerContainerBottom {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 10vw;
     flex-wrap: wrap-reverse;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 10px 24px;
+    box-shadow: none;
+    border: none;
+    border-radius: 16px;
 }
