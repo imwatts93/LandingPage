@@ -79,3 +79,45 @@ button {
     border: none;
     border-radius: 16px;
 }
+
+main h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.testContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5vh 10vw;
+}
+
+.clientCard figcaption {
+    margin-top: 16px;
+    width: 150px;
+}
+
+.clientPic {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.quoteBox {
+    width: 100%;
+    background-color: #E5E7EB;
+    padding: 2%;
+    font-size: 24px;
+    font-style: light italic;
+    display: flex;
+    justify-content: center;
+}
+
+.quoteCard {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quoteBox span {
+    justify-content: flex-end;
+}
